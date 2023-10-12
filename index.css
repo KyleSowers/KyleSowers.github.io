@@ -81,13 +81,15 @@ body {
 }
 
 .git-container {
-    height: 410px;
+    min-height: 355px;
+    padding: 40px;
     background-color: #334444;
     position: relative;
     border-radius: 25px;
     overflow: hidden;
     background-image: url("images/github.png");
     background-repeat: no-repeat;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.9);
 }
 
 .git-sm-container {
@@ -98,13 +100,19 @@ body {
     left: 0;
     height: 100vh;
     background-color: black;
-    transition: opacity 3.6s ease-in-out;
+    transition: opacity 5s ease-in-out;
 }
 
 .git-container:hover .git-sm-container {
     opacity: 1;
     visibility: visible;
 }
+
+/*.git-container:hover {*/
+/*    border: 5px solid white;*/
+/*    !*box-shadow: 0 20px 5px rgba(255, 255, 255, 0.9);*!*/
+/*}*/
+
 
 
 .git-header {
@@ -119,6 +127,7 @@ body {
 }
 
 .git-update {
+    margin-top: 10px;
     color: #555;
     padding-left: 10px;
 }
