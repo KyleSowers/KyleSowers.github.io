@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body, html {
     height: 100%;
 }
@@ -9,19 +13,44 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #334444;
+    background-color: #171723;
     width: 100%;
     /*margin-top: 40px;*/
 }
 
 .hero-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: url("images/software-development2.jpeg");
     background-repeat: no-repeat;
-    width: 100%;
+    background-position: center;
+    width: 100vw;
     height: 100vh;
     background-size: cover;
     color: white;
+
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
 }
+
+.heroInputs {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    z-index: 2;
+    width: 90vw;
+    height: 50vh;
+    padding: 20px;
+    text-align: center;
+}
+
 
 
 
@@ -30,7 +59,7 @@ body {
         position: relative;
         border: none;
         background-color: white;
-        color: #334444;
+        color: #181928;
         padding: 20px;
         display: flex;
         align-items: center;
@@ -56,7 +85,7 @@ body {
     .button::before {
         content: "";
         position: absolute;
-        background-color: #334444;
+        background-color: #161725;
         width: 100%;
         height: 100%;
         left: 0%;
