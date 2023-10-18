@@ -1,11 +1,9 @@
 * {
     box-sizing: border-box;
 }
-
 body, html {
     height: 100%;
 }
-
 /*Body*/
 body {
     display: flex;
@@ -17,7 +15,6 @@ body {
     width: 100%;
     /*margin-top: 40px;*/
 }
-
 .hero-image {
     display: flex;
     flex-direction: column;
@@ -31,7 +28,6 @@ body {
     background-size: cover;
     color: white;
 }
-
 .hero-bg {
     background-image: url("images/software-development2.jpeg");
     background-repeat: no-repeat;
@@ -44,7 +40,6 @@ body {
     height: 100%;
     filter: blur(10px);
 }
-
 .heroInputs {
     display: flex;
     justify-self: center;
@@ -65,7 +60,6 @@ body {
     border-radius: 65px;
     overflow: hidden;
 }
-
 .chip1, .chip2, .chip3 {
     display: inline-flex;
     /*position: absolute;*/
@@ -78,6 +72,7 @@ body {
     font-size: 14px;
     line-height: 50px;
     border-radius: 25px;
+    /*opacity: 0.89;*/
     opacity: 0.9;
 }
 
@@ -95,25 +90,24 @@ body {
 
 .chip1 {
     position: absolute;
-    left: 325px;
-    top: 70px;
+    left: 442px;
+    top: 340px;
     background-color: #12125d;
 }
 
 .chip2 {
     position: absolute;
-    left: 325px;
-    top: 170px;
+    left: 575px;
+    top: 340px;
     background-color: #1b53e1;
 }
 
 .chip3 {
     position: absolute;
-    left: 325px;
-    top: 270px;
+    left: 700px;
+    top: 340px;
     background-color: #25571c;
 }
-
 .chip1 img, .chip2 img, .chip3 img {
     float: left;
     margin: 0 10px 0 -28px;
@@ -121,16 +115,18 @@ body {
     width: 50px;
     border-radius: 50%;
 }
-
 .my-photo {
     width: 25vw;
     height: 130%;
     margin-left: -20px;
     position: relative;
+    bottom: 20px;
     bottom: 35px;
     right: 20px;
+    opacity: 0.6;
     opacity: 0.9;
 }
+
 
 
 
