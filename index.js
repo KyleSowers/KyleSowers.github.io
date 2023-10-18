@@ -4,7 +4,7 @@ const chip1 = document.querySelector('.chip1');
 let myPhoto = document.querySelector('.my-photo');
 
 chip1.addEventListener('mouseenter', () => {
-    myPhoto.src = './images/honor-guard.jpg'; // Change the image source on hover over .chip1
+    myPhoto.src = './images/honor-guard1.jpg'; // Change the image source on hover over .chip1
     myPhoto.style.transform = 'scale(1)'; // Scale up the image on hover over .chip1
     myPhoto.style.transition = 'transform 2s ease'; // Add a transition for smooth scaling
 });
