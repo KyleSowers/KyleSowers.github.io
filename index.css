@@ -66,6 +66,50 @@ body {
     overflow: hidden;
 }
 
+.chip1, .chip2, .chip3 {
+    display: inline-flex;
+    /*position: absolute;*/
+    /*left: 210px;*/
+    /*top: 350px;*/
+    color: white;
+    padding: 0 25px;
+    height: 50px;
+    min-width: 157px;
+    font-size: 14px;
+    line-height: 50px;
+    border-radius: 25px;
+    /*opacity: 0.89;*/
+}
+
+.chip1 {
+    position: absolute;
+    left: 325px;
+    top: 70px;
+    background-color: #12125d;
+}
+
+.chip2 {
+    position: absolute;
+    left: 325px;
+    top: 170px;
+    background-color: #1b53e1;
+}
+
+.chip3 {
+    position: absolute;
+    left: 325px;
+    top: 270px;
+    background-color: #25571c;
+}
+
+.chip1 img, .chip2 img, .chip3 img {
+    float: left;
+    margin: 0 10px 0 -28px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
 .my-photo {
     width: 25vw;
     height: 130%;
