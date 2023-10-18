@@ -78,7 +78,19 @@ body {
     font-size: 14px;
     line-height: 50px;
     border-radius: 25px;
-    /*opacity: 0.89;*/
+    opacity: 0.9;
+}
+
+.chip1:hover {
+    opacity: 1;
+}
+
+.my-photo::before {
+    content: url("./images/codeup-photo1 copy.jpg"); /* Set the initial image source */
+}
+
+.chip1:hover ~ .my-photo::before {
+    content: url("./images/honor-guard.jpg"); /* Change the image source on hover over .chip1 */
 }
 
 .chip1 {
@@ -115,9 +127,9 @@ body {
     height: 130%;
     margin-left: -20px;
     position: relative;
-    bottom: 20px;
+    bottom: 35px;
     right: 20px;
-    opacity: 0.6;
+    opacity: 0.9;
 }
 
 
